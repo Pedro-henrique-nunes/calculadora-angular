@@ -1,4 +1,6 @@
 <div class="container">
+  <button (click)="toggleAbout()" class="btn btn-dark">sobre</button><br>
+  <div *ngIf="showAboutInfo">  
   <div class="row">
     <div class="col-lg-3 col-md-4 col-6 order-1 order-lg-0">
       <p>Turma: <span class="turma">ADS0304N</span></p>
@@ -15,4 +17,5 @@
       </p>
     </div>
   </div>
+</div>
 </div>
